@@ -1,0 +1,156 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /root/Cryptography/RSA
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show :RSA_Python.py
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Cryptography/RSA/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Cryptography/RSA/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git rev-parse --show-toplevel
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /root/Cryptography/DES
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Cryptography/DES/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Cryptography/DES/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /root/Cryptography/ElGamal
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Cryptography/ElGamal/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Cryptography/ElGamal/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /root/Cryptography/Index_Calculus
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Cryptography/Index_Calculus/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Cryptography/Index_Calculus/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /root/Cryptography/PohligHelman
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+Failed to watch ref '/root/Cryptography/PohligHelman/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Cryptography/PohligHelman/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/Cryptography/RSA/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/Cryptography/RSA/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git check-ignore -v -z --stdin
+> git show :README.md
+> git show :pohlighellman.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :s_des.py
+> git show :cipher.txt
+> git ls-files --stage -- ./
+> git show :s_des.py
+> git show :Main.py
+> git check-ignore -v -z --stdin
+> git show :modular.py
+> git show :README.md
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /root/Cryptography
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

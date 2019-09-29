@@ -1,0 +1,18 @@
+Downloading https://pvsc.azureedge.net/python-language-server-stable/Python-Language-Server-linux-x64.0.4.24.nupkg...
+Language server dowload complete
+Unpacking archive... done
+[Info  - 12:13:39 AM] Microsoft Python Language Server version 0.4.24.0
+[Info  - 12:13:39 AM] Workspace root: /root/Cryptography
+[Info  - 12:13:39 AM] Analysis cache path: /root/.cache/Microsoft/Python Language Server
+[Info  - 12:13:40 AM] GetCurrentSearchPaths /bin/python3 
+[Info  - 12:13:40 AM] Interpreter search paths:
+[Info  - 12:13:40 AM]     /usr/lib64/python3.6
+[Info  - 12:13:40 AM]     /usr/lib64/python3.6/lib-dynload
+[Info  - 12:13:40 AM]     /root/.local/lib/python3.6/site-packages
+[Info  - 12:13:40 AM]     /usr/local/lib64/python3.6/site-packages
+[Info  - 12:13:40 AM]     /usr/local/lib/python3.6/site-packages
+[Info  - 12:13:40 AM]     /usr/lib64/python3.6/site-packages
+[Info  - 12:13:40 AM]     /usr/lib/python3.6/site-packages
+[Info  - 12:13:40 AM] User search paths:
+[Info  - 12:13:44 AM] Initializing for /bin/python3
+[Info  - 12:13:44 AM] Analysis caching mode: None.
