@@ -42,9 +42,10 @@ def shank(n, a, b):
                 pair1.append((x,y))
         # if len(pair1) == 2:
         #     break
-    # print(pair1)
-
-    result = (m * pair1[0][0] + pair1[1][0]) % n
+    if len(pair1) == 0:
+        result = 0
+    else:
+        result = (m * pair1[0][0] + pair1[1][0]) % n
 
     return result
 
@@ -54,7 +55,10 @@ if __name__ == '__main__':
     b = int(input("Enter the value of b: "))
 
     result = shank(n,a,b)
-    print(str(a) + '^' + str(result) + ' mod '  + str(n+1) + ' = ' + str(b) + ' mod ' + str(n+1))
+    if result == 0:
+        print("No values found")
+    else:
+        print(str(a) + '^' + str(result) + ' mod '  + str(n+1) + ' = ' + str(b) + ' mod ' + str(n+1))
     # print("Verification: " + str(pow(a,result)%(n+1), b%(n+1)))
     
 
