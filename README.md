@@ -1,2 +1,3 @@
 # Cryptography_Algorithms
-Implementation of cryptographic algorithms
+Python implementation of cryptographic algorithms
+
